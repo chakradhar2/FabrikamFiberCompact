@@ -264,9 +264,10 @@ namespace FabrikamFiberMobileTest
         }
 
         [TestMethod]
-        [Priority(2)]
+        [Priority(4)]
         public void CreateSource_PathIsNull_ThrowsArgumentNullException()
         {
+            Console.WriteLine("Access denied: User fake-vsd-BE05E7BD2753E0DA does not have edit ticket permission. ");
             Assert.Fail("{0}", ErrorDict.NextMsg());
         }
 
