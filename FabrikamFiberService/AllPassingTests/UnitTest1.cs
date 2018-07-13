@@ -1,6 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
+//foo 
+
 namespace AllPassingTests
 {
     [TestClass]
