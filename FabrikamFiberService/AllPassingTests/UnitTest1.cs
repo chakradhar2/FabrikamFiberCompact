@@ -12,6 +12,7 @@ namespace AllPassingTests
         [TestMethod]
         public void Pass1()
         {
+            var stopwatch = Stopwatch.StartNew();
             stopwatch = Stopwatch.StartNew();
             Thread.Sleep(60000);
             stopwatch.Stop();
@@ -19,6 +20,7 @@ namespace AllPassingTests
         [TestMethod]
         public void Pass2()
         {
+            var stopwatch = Stopwatch.StartNew();
             stopwatch = Stopwatch.StartNew();
             Thread.Sleep(40000);
             stopwatch.Stop();
@@ -26,6 +28,7 @@ namespace AllPassingTests
         [TestMethod]
         public void Pass3()
         {
+            var stopwatch = Stopwatch.StartNew();
             stopwatch = Stopwatch.StartNew();
             Thread.Sleep(20000);
             stopwatch.Stop();
@@ -33,6 +36,7 @@ namespace AllPassingTests
         [TestMethod]
         public void Pass4()
         {
+            var stopwatch = Stopwatch.StartNew();
             stopwatch = Stopwatch.StartNew();
             Thread.Sleep(20000);
             stopwatch.Stop();
