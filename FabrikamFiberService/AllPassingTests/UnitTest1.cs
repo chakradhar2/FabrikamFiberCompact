@@ -1,8 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Diagnostics;
 using System.Threading;
 
-Overloads
 
 namespace AllPassingTests
 {
@@ -12,22 +12,30 @@ namespace AllPassingTests
         [TestMethod]
         public void Pass1()
         {
-            Sleep(60000);
+            stopwatch = Stopwatch.StartNew();
+            Thread.Sleep(60000);
+            stopwatch.Stop();
         }
         [TestMethod]
         public void Pass2()
         {
-            Sleep(40000);
+            stopwatch = Stopwatch.StartNew();
+            Thread.Sleep(40000);
+            stopwatch.Stop();
         }
         [TestMethod]
         public void Pass3()
         {
-            Sleep(20000);
+            stopwatch = Stopwatch.StartNew();
+            Thread.Sleep(20000);
+            stopwatch.Stop();
         }
         [TestMethod]
         public void Pass4()
         {
-            Sleep(20000);
+            stopwatch = Stopwatch.StartNew();
+            Thread.Sleep(20000);
+            stopwatch.Stop();
         }
     }
 }
